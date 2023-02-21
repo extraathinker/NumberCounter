@@ -1,0 +1,42 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top : 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+}
+
+#counter{
+    font-size: 6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top : 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+}
+
+button{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top : 70%;
+    transform: translateY(-50%);
+}
+
+#increasebtn{
+    left: 40%;
+    transform: translateX(-50%);
+}
+#decreasebtn{
+    left: 60%;
+    transform: translateX(-50%);
+}
+#resetbtn{
+    left: 50%;
+    transform: translate(-50%);
+}
